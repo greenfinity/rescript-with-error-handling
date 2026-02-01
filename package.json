@@ -3,13 +3,13 @@
   "description": "Rescript error wrapper for handler functions in React",
   "version": "0.1.0",
   "license": "MIT",
-  "homepage": "https://github.com/greenfinity/gf-rescript-react-with-error-handling",
+  "homepage": "https://github.com/greenfinity/rescript-react-with-error-handling",
   "repository": {
     "type": "git",
     "url": "git@github.com:greenfinity/gf-rescript-react-with-error-handling.git"
   },
   "bugs": {
-    "url": "https://github.com/greenfinity/gf-rescript-react-with-error-handling/issues"
+    "url": "https://github.com/greenfinity/rescript-react-with-error-handling/issues"
   },
   "author": "Balazs Ree <ree@greenfinity.hu>",
   "engines": {
