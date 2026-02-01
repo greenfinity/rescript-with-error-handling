@@ -1,0 +1,4 @@
+.yarn/**/*    -diff -merge
+.yarn/**/*    linguist-generated=true
+.yarn/releases/** binary
+.yarn/plugins/** binary

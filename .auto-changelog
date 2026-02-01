@@ -1,0 +1,8 @@
+{
+  "output": "HISTORY.md",
+  "template": "keepachangelog",
+  "unreleased": true,
+  "commitLimit": false,
+  "startingDate": "2026-01-01",
+  "ignoreCommitPattern": "^(.*)(Release|release|Chore|chore)(.*)$"
+}

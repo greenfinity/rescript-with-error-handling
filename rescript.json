@@ -1,0 +1,27 @@
+{
+  "name": "@greenfinity/rescript-react-with-error-handling",
+  "jsx": { "version": 4, "mode": "classic" },
+  "namespace": false,
+  "compiler-flags": ["-bs-no-version-header"],
+  "suffix": ".bs.mjs",
+  "package-specs": {
+    "module": "esmodule",
+    "in-source": true
+  },
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    },
+    {
+      "dir": "__tests__",
+      "type": "dev",
+      "subdirs": true
+    }
+  ],
+  "warnings": {
+    "error": "+101"
+  },
+  "dependencies": ["@rescript/react"],
+  "dev-dependencies": ["@greenfinity/rescript-vitest"]
+}

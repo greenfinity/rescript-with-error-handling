@@ -1,0 +1,4 @@
+node_modules
+*.res
+dist
+*.bs.mjs
