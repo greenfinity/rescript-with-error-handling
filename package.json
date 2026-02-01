@@ -1,0 +1,55 @@
+{
+  "name": "@greenfinity/rescript-react-with-error-handling",
+  "description": "Rescript error wrapper for handler functions in React",
+  "version": "0.1.0",
+  "license": "MIT",
+  "homepage": "https://github.com/greenfinity/gf-rescript-react-with-error-handling",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:greenfinity/gf-rescript-react-with-error-handling.git"
+  },
+  "bugs": {
+    "url": "https://github.com/greenfinity/gf-rescript-react-with-error-handling/issues"
+  },
+  "author": "Balazs Ree <ree@greenfinity.hu>",
+  "engines": {
+    "node": ">=22.12.0",
+    "yarn": ">=4.5.3"
+  },
+  "files": [
+    "src",
+    "__tests__/.gitkeep",
+    "rescript.json"
+  ],
+  "scripts": {
+    "changelog": "yarn auto-changelog -p && git add HISTORY.md",
+    "build": "yarn rescript:build",
+    "rescript:clean": "yarn rescript clean",
+    "rescript:build": "yarn rescript build",
+    "rescript:dev": "yarn rescript watch",
+    "test": "yarn vitest --run --coverage --allow-only",
+    "test:dev": "yarn vitest",
+    "yalc:dev": "yarn rescript:dev & yarn nodemon -x \"yalc push\"",
+    "yalc:push": "yarn nodemon -e res -x \"yalc push\""
+  },
+  "preferUnplugged": true,
+  "peerDependencies": {
+    "@rescript/react": "^0.14.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "rescript": "^12.1.0"
+  },
+  "devDependencies": {
+    "@greenfinity/rescript-vitest": "^0.2.0",
+    "@rescript/react": "^0.14.0",
+    "@vitest/coverage-v8": "2.1.8",
+    "auto-changelog": "^2.4.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^2.3.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "rescript": "^12.0.0",
+    "vitest": "^2.1.8"
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
+}
